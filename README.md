@@ -1,26 +1,5 @@
 # hello-world
 
-## Project setup
-```
-npm install
-```
+用Vue的transition做的一个页面切换滑动效果，发现在动画时fixed会出现莫名的抖动，不能按预期运行，改用absolute
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+![image](https://github.com/Aiden1204/VueAnimateDemo/blob/master/showImg/exampleLog.gif)
